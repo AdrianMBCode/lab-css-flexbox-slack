@@ -99,19 +99,39 @@ header div div button img {
 
 /* Parte 3 */
 
-.information {
+main section > p {
     text-align: center;
     text-transform: uppercase;
     background-color: #F3EAE2;
+    padding: 15px 15px;
+    font-size: 0.8rem;
 }
 
-.logos {
-    width: 10vw;
-    display: flex;
+main section div {
+    background-color: #F3EAE2;
+    
 }
 
-.logos img {
-    align-content: center;
+main section:nth-child(1) img {
+    width: 20%;
+    flex-wrap: wrap;
 }
+
+main section h2 {
+    font-size: 2em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+main section p {
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+main section a span {
+    margin-left: 10px;
+}
+
 
 
